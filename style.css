@@ -11,7 +11,7 @@
     display: flex;
     position: fixed;
     top: 0px;
-    
+   
 }
 .nav-logo{
     height: 7vh;
@@ -44,6 +44,7 @@
 }
 .search_box{
     display: flex;
+    justify-content: space-evenly;
     background-color: goldenrod;
     width: 93vh;
     height: 5.5vh;
@@ -54,14 +55,67 @@
 }
 .All{
     text-indent: 1vh;
-    width: 6vh;
-    border-radius: .4vh;
+    width:7vh;
+    border-top-left-radius: .4vh;
+    border-bottom-left-radius: .4vh;
+    background-color: #f3f3f3;
+    text-align: center ;
+    border: none;
 }
 .placeholder{
-    width: 80vh;
+    width:100%;
+    font-size: 1rem;
+    border: none;
+    
 }
 .search_icon{
     color: black;
-    margin-top: 1.5vh;
-    margin-left: 1vh;
+    width: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.sign-in{
+    margin-left: 5vh;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.hello{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Account{
+     font-size:0.9rem;
+}
+.history{
+    margin-left: 3vh;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+.r{
+    font-size: 0.8rem;
+}
+.o{
+    font-size:0.9rem;
+}
+.cart{
+    margin-left: 5vh;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+}
+.logocart{
+    
+    font-size: 4vh;
+}
+.c{
+    margin-top: 2vh;
+    font-size:0.9rem;
 }
